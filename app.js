@@ -15,6 +15,7 @@ const notFound = require('./middleware/notFound')
  app.get('/',(req,res) => {
     res.send('homepage')
  })
+ 
  app.use('/api/v1',mainRouter)
 
 
