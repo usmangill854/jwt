@@ -5,4 +5,4 @@ const errorHandlerMiddleware = async(err,req,res,next) => {
     
     return res.status(500).send('something went wrong')
 }
-module.exports = errorHandlerMiddleware
+module.exports = errorHandlerMiddleware 
